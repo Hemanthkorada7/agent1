@@ -1,0 +1,105 @@
+ 1  yum update -y
+    2  yum install ansible -y
+    3  sudo amazon-linux java
+    4  sudo amazon linux java
+    5  sudo amazon-linux-extras install ansible2 -y
+    6  ansible --version
+    7  java --version
+    8  export AWS_ACCESS_KEY https://214728162624.signin.aws.amazon.com/console
+    9  export AWS_ACCESS_KEY useer-1
+   10  ping google.com
+   11  export AWS_ACCESS_KEY AKIATD7WLXVAIBLTDXDF
+   12  export AWS_ACCESS_KEY=AKIATD7WLXVAIBLTDXDF
+   13  export AWS_SECRET_ACCESS_KEY=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
+   14  yum install pip -y
+   15  yum install python-pip
+   16  sudo yum -y install python-pip pip
+   17  pip install boto boto3
+   18  ansible --version
+   19  pip show boto
+   20  pip show boto3
+   21  ping google.com
+   22  mkdir demo1
+   23  cd demo1
+   24  nano pbook1.yml
+   25  ansible-playbook pbook1.yml --syntax-check
+   26  ansible-playbook pbook1.yml
+   27  nano pbook1.yml
+   28  ansible-playbook pbook1.yml
+   29  nano pbook1.yml
+   30  ansible-playbook pbook1.yml
+   31  ping google.com
+   32  cd ..
+   33  cd /etc/ansible/
+   34  ls
+   35  nano hosts
+   36  cd .ssh
+   37  cd
+   38  cd .ssh
+   39  ssh-keygen
+   40  ping google.com
+   41  ls
+   42  cat id_rsa.pub
+   43  ping google.com
+   44  ansible -m ping all
+   45  cd
+   46  cd demo1
+   47  ls
+   48  nano users.yml
+   49  cat users.yml
+   50  ansible-vault encrypt user.yml
+   51  ansible-vault encrypt users.yml
+   52  cat users.yml
+   53  nano users.yml
+   54  ls
+   55  ansible-vault view users.yml
+   56  ansible-vault edit users.yml
+   57  ansible-vault rekey users.yml
+   58  cd
+   59  cd /
+   60  ls
+   61  cd home/
+   62  ls
+   63  cd ec2-user/
+   64  nano mypwd
+   65  cd
+   66  cd demo1
+   67  ls
+   68  cd
+   69  cd /
+   70  cd home
+   71  cd ec2
+   72  cd ec2-user/
+   73  nano mypwd
+   74  cd
+   75  cd demo1
+   76  ls
+   77  ansible-playbook users.yml
+   78  ansible-playbook user.yml --vault-password-
+   79  ansible-playbook user.yml --vault-password-file /home/cec/mypwd
+   80  ansible-playbook users.yml --vault-password-file /home/ec2/mypwd
+   81  ansible-playbook users.yml --vault-password-file /home/ec2-user/mypwd
+   82  ansible-vault decrypt users.yml
+   83  cat users.yml
+   84  cd ..
+   85  yum install docker -y
+   86  docker --version
+   87  docker pull centos
+   88  services docker start
+   89  service docker start
+   90  docker images
+   91  docker pull centos
+   92  docker images
+   93  docker ps -a
+   94  docker run -it -p 81:80 --name c1 -d ubuntu sleep 30
+   95  docker ps -a
+   96  docker exec -it de bash
+   97  docker exec -it de cat /etc/*release*
+   98  docker run -it -p 82:80 --name c2 -d ubuntu sleep 120
+   99  docker ps -a
+  100  docker exec -it 3a
+  101  docker exec -it 3a bash
+  102  docker exec -it 3a cat /etc/*release*
+  103  docker images
+  104  docker ps -a
+  105  history
